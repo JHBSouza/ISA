@@ -1,0 +1,174 @@
+
+body{
+background:url('https://melhoracordo.srv.br/wp-content/uploads/2018/06/inteligencia-artificial-reivencao-do-advogado.jpg');
+  /* background-color: #060e33; */
+  background-repeat: no-repeat;
+  background-size: 140vw;
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+background-size:cover;
+      background-position: center center;
+      background-attachment: fixed;
+
+}
+
+  div.main{
+    font-family: Segoe UI;
+    font-style:normal;
+    color:#ADD8E6;
+    margin-top: 2%;
+    background-color: SteelBlue;
+    border: 1vw solid SteelBlue;
+    border-radius: 2vw;
+    background-size:cover;
+    resize:both;
+    width: 85vw;
+    height: 75vw;
+    display:block;}
+a{
+  color:#8cbed7;
+  font-family: Segoe UI;
+  font-size: large;
+}
+
+h3{
+  display:none;
+}
+
+
+
+button{
+  border-radius: 10px;
+  background-color: steelblue;
+  color: black;
+  border: 2px solid #4682b4;
+}
+input{
+    border-radius: 10px;
+  background-color: lightblue;
+  color: black;
+  border: 1px solid #4682b4;
+}
+
+nav{
+  background-color: steelblue;
+  border: 3vw solid steelblue;
+  border-radius: 1vw;
+  padding-top:1px;
+  width:80vw;
+  height:1vw;
+  display:block;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top:-2%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: lightblue;
+  text-align: center;
+  text-decoration: none;
+  padding:2vw;
+  border-radius:2vw;
+  font-size:x-large;
+  font-family: Segoe UI;
+}
+
+li.sair{
+  padding-left:35vw;
+}
+
+
+li a:hover {
+  background-color: Skyblue;
+}
+
+@media screen and (min-width: 1920px){
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top:-1%;
+}
+
+
+li a {
+  color: lightblue;
+  text-align: center;
+  text-decoration: none;
+  border: 1vw solid steelblue;
+  padding:1vw;
+  border-radius:3vw;
+  font-size:xx-large;
+  font-family: Segoe UI;
+}
+
+nav{
+  background-color: steelblue;
+  border: 1vw solid steelblue;
+  border-radius: 1vw;
+  padding-top:1px;
+  width:85vw;
+  height:1vw;
+  display:block;
+}
+
+li.sair{
+  padding-left:50vw;
+}
+
+
+
+@media screen and (max-width:1200px){
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top:-1%;
+}
+
+
+li a {
+  color: lightblue;
+  text-align: center;
+  text-decoration: none;
+  padding:1vw;
+  border-radius:2vw;
+  font-size:x-large;
+  font-family: Segoe UI;
+}
+
+nav{
+  background-color: steelblue;
+  border: 1vw solid steelblue;
+  border-radius: 1vw;
+  padding-top:1px;
+  width:85vw;
+  height:1vw;
+  display:block;
+}
+
+li.sair{
+  padding-left:49vw;
+}

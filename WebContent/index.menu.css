@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 110%;
+    background-position: initial;
+}
+
+.header{
+  height: 173px;
+  width: 1265px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(img/HomeFundojpg.jpg);
+      border-radius: 15px;
+}
+
+.botaoBot{
+  width: 90px;
+  height: 93px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #2677f1;
+}
+
+.container{
+  height: 756px;
+  width: 1265px;
+  margin-top: 21px;
+  background-color: #9FB6CDcd;
+  border-radius: 15px;
+}
+
+.conteudo{
+  padding: 45px;
+}
+
+.sair{
+  cursor: pointer;
+  margin-left: 1150px;
+}
+
+.menu1{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-image: url(img/Apostila.png);
+      border-radius: 15px;
+}
+
+.ap{
+  font-size: 26px;
+  margin-left: 45px;
+  color: white;
+}
+
+.menu2{
+  background-color: #6d99b5;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.menu3{
+  background-color: #6d99b5;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.tt{
+  font-size: 26px;
+  margin-left: 45px;
+}
+
+.bot{
+	 height: 200px;
+   	 width: 200px;
+     z-index: 2;
+     position: fixed;
+     cursor: pointer;
+}
